@@ -1,0 +1,228 @@
+#welcome-section {
+    background-color: black;
+    color: white;
+    padding-bottom: 200px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 150px;
+}
+
+h1 {
+    font-size: 6rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#navbar {
+    background-color: darkred;
+    display: flex;
+}
+
+a {
+    color: black;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    font-size: 2.2rem;
+    display: flex;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+@media only screen and (max-width: 800px) {
+    header {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 28.75em) .nav {
+    justify-content: center;
+}
+
+.nav {
+    justify-content: flex-end;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-red);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 10;
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+@media (max-width: 28.75em) .projects-section-header {
+    font-size: 4rem;
+}
+
+.projects-section-header {
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+}
+
+@media (max-width: 30.625em) .projects-grid {
+    grid-template-columns: 1fr;
+}
+
+.projects-grid {
+    background: black;
+    display: grid;
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0px;
+}
+
+section {
+    display: block;
+}
+
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.project-image {
+    height: calc(100% - 4.2rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+#projects {
+    background: #5A7670;
+    display: grid;
+}
+
+.Contact-section {
+    text-align: center;
+    height: 80vh;
+    padding: 0 2rem;
+    color: black;
+    display: grid;
+    background: black;
+}
+
+.contact-header {
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+#contact-section {
+    color: white;
+    text-align: center;
+}
+
+.about-image {
+    border-radius: 50%;
+    border: 10px solid #ddd;
+    padding: 0px;
+    width: 300px;
+}
+
+.header-image {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    width: 100px;
+    height: 75px;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-right: 800px;
+    padding-top: 0px;
+}
